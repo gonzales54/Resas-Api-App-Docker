@@ -1,0 +1,7 @@
+ .gitignore
+ src/vue-app/node_modules
+ src/vue-app/.eslintrc.js
+ src/vue-app/.env
+ src/vue-app/.package-lock.json
+ src/vue-app/.package.json
+ src/vue-app/.gitignore
