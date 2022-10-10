@@ -1,0 +1,3 @@
+FROM node:16.17.1-alpine
+WORKDIR /usr/src/app
+ENV VUE_APP_API_KEY=jY41IOo9OaECnFDJ79vm8nFv0DyhPBjhYWqouBKc

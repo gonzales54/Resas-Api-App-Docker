@@ -1,0 +1,11 @@
+version: '3.9'
+services:
+  vue-app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - ./src:/usr/src/app
+    ports:
+      - "8080:8080"
+    stdin_open: true
